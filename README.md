@@ -89,25 +89,6 @@ Look for an interface like `ap0`, `wlan0`, or similar that has an IP in the hots
 
 ---
 
-**Contributing & Publishing**
-
-- If you publish to GitHub, consider adding a `LICENSE` (MIT is a common permissive choice) and `CHANGELOG.md`.
-- Keep `throttle.sh` executable (`chmod +x throttle.sh`) and document any device-specific changes in the README.
-
-Quick git publish example:
-
-```sh
-git init
-git add throttle.sh README.md
-git commit -m "Add throttle script and README"
-git branch -M main
-# create repo on GitHub, then:
-git remote add origin <your-git-remote>
-git push -u origin main
-```
-
----
-
 **Tested On**
 
 - Android 15 — Xiaomi Note 14 Pro
